@@ -6,7 +6,7 @@ function Hero() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <p className="eyebrow">Hello, I am</p>
-          <h1>Muhammad Shahid and Umair is my best friend</h1>
+          <h1>Muhamma shahid</h1>
           <p className="hero-title">DevOps Engineer</p>
           <p className="hero-description">
             I build modern deployment platforms and automated release pipelines leveraging Docker, GitHub Actions, AWS EC2, Laravel, and PHP.
