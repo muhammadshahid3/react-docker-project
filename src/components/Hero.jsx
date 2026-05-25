@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>Hi, I'm a Full Stack Developer</h1>
+          <h1>Hi, I'm  Devops Engineer</h1>
           <p className="hero-subtitle">
             I create beautiful, responsive web applications using modern technologies
           </p>
