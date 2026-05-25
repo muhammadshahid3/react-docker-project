@@ -1,0 +1,116 @@
+.experience {
+  background: #080b17;
+  color: #e2e8f0;
+}
+
+.section-header {
+  max-width: 760px;
+  margin-bottom: 2.5rem;
+}
+
+.section-label {
+  display: inline-flex;
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 999px;
+  color: #7dd3fc;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.experience h2 {
+  font-size: clamp(2.2rem, 2.6vw, 2.8rem);
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.experience-copy p {
+  max-width: 680px;
+  line-height: 1.8;
+  margin-bottom: 1.8rem;
+  color: #cbd5e1;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.experience-list li {
+  position: relative;
+  padding-left: 28px;
+  color: #cbd5e1;
+  font-size: 0.98rem;
+}
+
+.experience-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #38bdf8;
+}
+
+.experience-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.pipeline-card {
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 24px;
+  padding: 28px;
+  width: 100%;
+  min-height: 260px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  gap: 12px;
+}
+
+.pipeline-step {
+  background: rgba(30, 41, 59, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 18px;
+  padding: 18px 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.pipeline-arrow {
+  color: #60a5fa;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pipeline-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .pipeline-arrow {
+    justify-content: flex-start;
+  }
+}

@@ -25,9 +25,19 @@ function Contact() {
 
   return (
     <section id="contact" className="contact">
-      <div className="container">
-        <h2>Get In Touch</h2>
-        <p className="section-subtitle">Let's work together on your next project</p>
+      <div className="container contact-grid">
+        <div className="contact-copy">
+          <div className="section-label">Contact</div>
+          <h2>Let's collaborate on your next infrastructure project.</h2>
+          <p className="section-subtitle">
+            I’m available for DevOps engagements, deployments, and automation work.
+          </p>
+          <div className="contact-details">
+            <p><strong>Email:</strong> hello@muhammadshahid.dev</p>
+            <p><strong>Location:</strong> Remote / Global</p>
+          </div>
+        </div>
+
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <input

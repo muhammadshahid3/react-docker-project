@@ -10,16 +10,16 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="container">
-        <div className="header-content">
-          <div className="logo">Portfolio</div>
-          <nav className="nav">
-            <button onClick={() => scrollToSection('hero')}>Home</button>
-            <button onClick={() => scrollToSection('projects')}>Projects</button>
-            <button onClick={() => scrollToSection('skills')}>Skills</button>
-            <button onClick={() => scrollToSection('contact')}>Contact</button>
-          </nav>
-        </div>
+      <div className="container header-container">
+        <div className="logo">MS</div>
+        <nav className="nav">
+          <button onClick={() => scrollToSection('hero')}>Home</button>
+          <button onClick={() => scrollToSection('about')}>About</button>
+          <button onClick={() => scrollToSection('projects')}>Projects</button>
+          <button onClick={() => scrollToSection('skills')}>Skills</button>
+          <button onClick={() => scrollToSection('experience')}>Experience</button>
+          <button onClick={() => scrollToSection('contact')}>Contact</button>
+        </nav>
       </div>
     </header>
   )

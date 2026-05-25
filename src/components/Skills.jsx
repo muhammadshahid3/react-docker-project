@@ -3,24 +3,27 @@ import './Skills.css'
 function Skills() {
   const skills = [
     {
-      category: 'Frontend',
-      items: ['React', 'JavaScript', 'HTML/CSS', 'Tailwind CSS', 'Vite']
+      category: 'DevOps & Cloud',
+      items: ['Docker', 'CI/CD', 'GitHub Actions', 'AWS EC2', 'Linux']
     },
     {
-      category: 'Backend',
-      items: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'REST APIs']
+      category: 'Web & Infrastructure',
+      items: ['Nginx', 'Laravel', 'PHP', 'React', 'REST APIs']
     },
     {
-      category: 'Tools',
-      items: ['Git', 'VS Code', 'Docker', 'Webpack', 'NPM']
+      category: 'Automation',
+      items: ['Docker Hub', 'Deployment Automation', 'Monitoring', 'Shell Scripting']
     }
   ]
 
   return (
     <section id="skills" className="skills">
       <div className="container">
-        <h2>My Skills</h2>
-        <p className="section-subtitle">Technologies and tools I work with</p>
+        <div className="section-header">
+          <div className="section-label">Skills</div>
+          <h2>Technical strengths for dependable delivery.</h2>
+          <p className="section-subtitle">Tools and technologies I rely on for infrastructure automation and production deployments.</p>
+        </div>
         <div className="skills-grid">
           {skills.map((skillGroup, idx) => (
             <div key={idx} className="skill-group">

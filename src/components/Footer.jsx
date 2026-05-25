@@ -5,15 +5,8 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="footer-content">
-          <p>&copy; {currentYear} My Portfolio. All rights reserved.</p>
-          <div className="social-links">
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
-          </div>
-        </div>
+      <div className="container footer-content">
+        <p>© {currentYear} Muhammad Shahid. Built for modern DevOps delivery.</p>
       </div>
     </footer>
   )
